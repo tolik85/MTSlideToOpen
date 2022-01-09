@@ -218,11 +218,6 @@ import UIKit
         sliderTextLabel.textColor = sliderBackgroundColor
         sliderTextLabel.textAlignment = .center
         sliderTextLabel.isHidden = !showSliderText
-        
-        if isOnRightToLeftLanguage() {
-            textLabel.mt_flipView()
-            sliderTextLabel.mt_flipView()
-        }
 
         sliderHolderView.backgroundColor = sliderBackgroundColor
         sliderHolderView.layer.cornerRadius = sliderCornerRadius
